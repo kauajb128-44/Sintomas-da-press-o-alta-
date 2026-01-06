@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sintomas da Pressão Alta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #c62828, #e53935);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #c62828;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+        }
+
+        .section h2 {
+            color: #c62828;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+        }
+
+        .symptoms {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .symptom-card {
+            background: #fceaea;
+            border-left: 5px solid #c62828;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .symptom-card h3 {
+            margin-bottom: 8px;
+            color: #b71c1c;
+        }
+
+        .alert {
+            background: #fff3cd;
+            border-left: 6px solid #ff9800;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #c62828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sintomas da Pressão Alta</h1>
+        <p>Informação clara para cuidar da sua saúde</p>
+    </header>
+
+    <nav>
+        <a href="#o-que-e">O que é</a>
+        <a href="#sintomas">Sintomas</a>
+        <a href="#riscos">Riscos</a>
+        <a href="#prevencao">Prevenção</a>
+    </nav>
+
+    <main class="container">
+
+        <section class="section" id="o-que-e">
+            <h2>O que é Pressão Alta?</h2>
+            <p>
+                A pressão alta, também chamada de hipertensão, ocorre quando a força do sangue contra as paredes das artérias é constantemente elevada.
+                Muitas vezes, ela não apresenta sintomas claros, sendo conhecida como uma “doença silenciosa”.
+            </p>
+        </section>
+
+        <section class="section" id="sintomas">
+            <h2>Principais Sintomas</h2>
+
+            <div class="symptoms">
+                <div class="symptom-card">
+                    <h3>Dor de cabeça</h3>
+                    <p>Dores frequentes, principalmente na região da nuca.</p>
+                </div>
+
+                <div class="symptom-card">
+                    <h3>Tontura</h3>
+                    <p>Sensação de desequilíbrio ou cabeça leve.</p>
+                </div>
+
+                <div class="symptom-card">
+                    <h3>Visão embaçada</h3>
+                    <p>Dificuldade para enxergar claramente.</p>
+                </div>
+
+                <div class="symptom-card">
+                    <h3>Falta de ar</h3>
+                    <p>Dificuldade para respirar em esforços leves.</p>
+                </div>
+
+                <div class="symptom-card">
+                    <h3>Palpitações</h3>
+                    <p>Batimentos cardíacos acelerados ou irregulares.</p>
+                </div>
+            </div>
+
+            <div class="alert">
+                <strong>Atenção:</strong> Muitas pessoas não apresentam sintomas. A única forma segura de diagnóstico é medir a pressão regularmente.
+            </div>
+        </section>
+
+        <section class="section" id="riscos">
+            <h2>Riscos da Pressão Alta</h2>
+            <p>
+                Quando não controlada, a pressão alta pode causar problemas graves como infarto, AVC, insuficiência renal e perda da visão.
+            </p>
+        </section>
+
+        <section class="section" id="prevencao">
+            <h2>Como Prevenir</h2>
+            <p>✔ Alimentação saudável</p>
+            <p>✔ Redução do consumo de sal</p>
+            <p>✔ Prática regular de exercícios físicos</p>
+            <p>✔ Controle do estresse</p>
+            <p>✔ Acompanhamento médico</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Informação em saúde | Conteúdo educativo</p>
+    </footer>
+
+</body>
+</html>
